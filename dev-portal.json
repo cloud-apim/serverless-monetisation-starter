@@ -24,8 +24,6 @@
       "monthly": 1000,
       "throttling": 5,
       "description": "A plan to test the api",
-      "annual_price": 0,
-      "monthly_price": 0,
       "stripe_plan_id": "${environment.STRIPE_FREE_PLAN}"
     },
     {
@@ -36,8 +34,6 @@
       "monthly": 5000,
       "throttling": 25,
       "description": "A silver plan",
-      "annual_price": 99.99,
-      "monthly_price": 8.99,
       "stripe_plan_id": "${environment.STRIPE_SILVER_PLAN}"
     },
     {
@@ -48,8 +44,6 @@
       "monthly": 12500,
       "throttling": 50,
       "description": "A gold plan",
-      "annual_price": 249.99,
-      "monthly_price": 21.99,
       "stripe_plan_id": "${environment.STRIPE_GOLD_PLAN}"
     }
   ]
